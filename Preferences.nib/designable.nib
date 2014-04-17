@@ -210,7 +210,7 @@
                                         <textField verticalHuggingPriority="750" id="4818">
                                             <rect key="frame" x="17" y="341" width="88" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Show:" id="6443">
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="显示：" id="6443">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -576,7 +576,7 @@
                                         <button verticalHuggingPriority="750" id="2370">
                                             <rect key="frame" x="445" y="44" width="100" height="32"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <buttonCell key="cell" type="push" title="Change…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6454">
+                                            <buttonCell key="cell" type="push" title="修改…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6454">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="system"/>
                                                 <connections>
@@ -587,7 +587,7 @@
                                         <button verticalHuggingPriority="750" id="6547">
                                             <rect key="frame" x="445" y="12" width="100" height="32"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6548">
+                                            <buttonCell key="cell" type="push" title="重置" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6548">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
@@ -1164,12 +1164,12 @@
                                                                         <popUpMenus>
                                                                             <menu id="7053">
                                                                                 <items>
-                                                                                    <menuItem title="Name" state="on" id="7061">
+                                                                                    <menuItem title="名称" state="on" id="7061">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">splitsIncludingSelf.category.smart_name</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Subname" id="7060">
+                                                                                    <menuItem title="子名称" id="7060">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">splitsIncludingSelf.category.smart_subname</string>
                                                                                         </expression>
@@ -1178,19 +1178,19 @@
                                                                             </menu>
                                                                             <menu id="7054">
                                                                                 <items>
-                                                                                    <menuItem title="contains" state="on" id="7055">
+                                                                                    <menuItem title="包含" state="on" id="7055">
                                                                                         <integer key="representedObject" value="99"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="begins with" id="7056">
+                                                                                    <menuItem title="起始于" id="7056">
                                                                                         <integer key="representedObject" value="8"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="ends with" id="7057">
+                                                                                    <menuItem title="结束于" id="7057">
                                                                                         <integer key="representedObject" value="9"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is" id="7058">
+                                                                                    <menuItem title="是" id="7058">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7059">
+                                                                                    <menuItem title="不是" id="7059">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1208,7 +1208,7 @@
                                                                         <popUpMenus>
                                                                             <menu id="7085">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Date" state="on" id="7091">
+                                                                                    <menuItem title="交易日期" state="on" id="7091">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">transactionDate</string>
                                                                                         </expression>
@@ -1217,16 +1217,16 @@
                                                                             </menu>
                                                                             <menu id="7086">
                                                                                 <items>
-                                                                                    <menuItem title="is" state="on" id="7087">
+                                                                                    <menuItem title="是" state="on" id="7087">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7088">
+                                                                                    <menuItem title="不是" id="7088">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is after" id="7089">
+                                                                                    <menuItem title="晚于" id="7089">
                                                                                         <integer key="representedObject" value="2"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is before" id="7090">
+                                                                                    <menuItem title="早于" id="7090">
                                                                                         <integer key="representedObject" value="0"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1244,7 +1244,7 @@
                                                                         <popUpMenus>
                                                                             <menu id="7026">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Date" state="on" id="7027">
+                                                                                    <menuItem title="交易日期" state="on" id="7027">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">transactionDateDaysBefore</string>
                                                                                         </expression>
@@ -1253,7 +1253,7 @@
                                                                             </menu>
                                                                             <menu id="7025">
                                                                                 <items>
-                                                                                    <menuItem title="is in the last" state="on" id="7028">
+                                                                                    <menuItem title="在最近" state="on" id="7028">
                                                                                         <integer key="representedObject" value="1"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1271,7 +1271,7 @@
                                                                         <popUpMenus>
                                                                             <menu id="7021">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Date" state="on" id="7024">
+                                                                                    <menuItem title="交易日期" state="on" id="7024">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">transactionDateWeeksBefore</string>
                                                                                         </expression>
@@ -1280,7 +1280,7 @@
                                                                             </menu>
                                                                             <menu id="7022">
                                                                                 <items>
-                                                                                    <menuItem title="is in the last" state="on" id="7023">
+                                                                                    <menuItem title="在最近" state="on" id="7023">
                                                                                         <integer key="representedObject" value="1"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1298,7 +1298,7 @@
                                                                         <popUpMenus>
                                                                             <menu id="7018">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Date" state="on" id="7019">
+                                                                                    <menuItem title="交易日期" state="on" id="7019">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">transactionDateMonthsBefore</string>
                                                                                         </expression>
@@ -1307,7 +1307,7 @@
                                                                             </menu>
                                                                             <menu id="7017">
                                                                                 <items>
-                                                                                    <menuItem title="is in the last" state="on" id="7020">
+                                                                                    <menuItem title="在最近" state="on" id="7020">
                                                                                         <integer key="representedObject" value="1"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1328,12 +1328,12 @@
                                                                         <popUpMenus>
                                                                             <menu id="7136">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Comments" state="on" id="7143">
+                                                                                    <menuItem title="交易说明" state="on" id="7143">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">comments</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Transaction Number" id="7144">
+                                                                                    <menuItem title="交易号码" id="7144">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">number</string>
                                                                                         </expression>
@@ -1342,19 +1342,19 @@
                                                                             </menu>
                                                                             <menu id="7137">
                                                                                 <items>
-                                                                                    <menuItem title="contains" state="on" id="7142">
+                                                                                    <menuItem title="包含" state="on" id="7142">
                                                                                         <integer key="representedObject" value="99"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="begins with" id="7141">
+                                                                                    <menuItem title="起始于" id="7141">
                                                                                         <integer key="representedObject" value="8"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="ends with" id="7140">
+                                                                                    <menuItem title="结束于" id="7140">
                                                                                         <integer key="representedObject" value="9"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is" id="7139">
+                                                                                    <menuItem title="是" id="7139">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7138">
+                                                                                    <menuItem title="不是" id="7138">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1390,37 +1390,37 @@
                                                                         <popUpMenus>
                                                                             <menu id="7071">
                                                                                 <items>
-                                                                                    <menuItem title="First Name" state="on" id="7078">
+                                                                                    <menuItem title="名字" state="on" id="7078">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">payee.firstname</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Last Name" id="7079">
+                                                                                    <menuItem title="姓氏" id="7079">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">payee.lastname</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Company" id="7080">
+                                                                                    <menuItem title="公司" id="7080">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">payee.company</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Address" id="7081">
+                                                                                    <menuItem title="地址" id="7081">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">payee.address</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Phone" id="7082">
+                                                                                    <menuItem title="电话" id="7082">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">payee.phone</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Email" id="7083">
+                                                                                    <menuItem title="电子邮箱" id="7083">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">payee.email</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Comments" id="7084">
+                                                                                    <menuItem title="说明信息" id="7084">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">payee.notes</string>
                                                                                         </expression>
@@ -1429,19 +1429,19 @@
                                                                             </menu>
                                                                             <menu id="7072">
                                                                                 <items>
-                                                                                    <menuItem title="contains" state="on" id="7073">
+                                                                                    <menuItem title="包含" state="on" id="7073">
                                                                                         <integer key="representedObject" value="99"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="begins with" id="7074">
+                                                                                    <menuItem title="起始于" id="7074">
                                                                                         <integer key="representedObject" value="8"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="ends with" id="7075">
+                                                                                    <menuItem title="结束于" id="7075">
                                                                                         <integer key="representedObject" value="9"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is" id="7076">
+                                                                                    <menuItem title="是" id="7076">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7077">
+                                                                                    <menuItem title="不是" id="7077">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1462,12 +1462,12 @@
                                                                         <popUpMenus>
                                                                             <menu id="7063">
                                                                                 <items>
-                                                                                    <menuItem title="Name" state="on" id="7065">
+                                                                                    <menuItem title="名称" state="on" id="7065">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">smart_security.name</string>
                                                                                         </expression>
                                                                                     </menuItem>
-                                                                                    <menuItem title="Symbol" id="7064">
+                                                                                    <menuItem title="代码" id="7064">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">smart_security.symbol</string>
                                                                                         </expression>
@@ -1476,19 +1476,19 @@
                                                                             </menu>
                                                                             <menu id="7062">
                                                                                 <items>
-                                                                                    <menuItem title="contains" state="on" id="7070">
+                                                                                    <menuItem title="包含" state="on" id="7070">
                                                                                         <integer key="representedObject" value="99"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="begins with" id="7069">
+                                                                                    <menuItem title="起始于" id="7069">
                                                                                         <integer key="representedObject" value="8"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="ends with" id="7068">
+                                                                                    <menuItem title="结束于" id="7068">
                                                                                         <integer key="representedObject" value="9"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is" id="7067">
+                                                                                    <menuItem title="是" id="7067">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7066">
+                                                                                    <menuItem title="不是" id="7066">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1515,7 +1515,7 @@
                                                                         <popUpMenus>
                                                                             <menu id="7092">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Status" state="on" id="7100">
+                                                                                    <menuItem title="交易状态" state="on" id="7100">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">reconciledStatus</string>
                                                                                         </expression>
@@ -1524,17 +1524,17 @@
                                                                             </menu>
                                                                             <menu id="7093">
                                                                                 <items>
-                                                                                    <menuItem title="is" state="on" id="7098">
+                                                                                    <menuItem title="是" state="on" id="7098">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7099">
+                                                                                    <menuItem title="不是" id="7099">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
                                                                                 </items>
                                                                             </menu>
                                                                             <menu id="7094">
                                                                                 <items>
-                                                                                    <menuItem title="closed" state="on" id="7095">
+                                                                                    <menuItem title="已关闭" state="on" id="7095">
                                                                                         <expression key="representedObject" type="constant">
                                                                                             <string key="constantValue">0</string>
                                                                                         </expression>
@@ -1582,7 +1582,7 @@
                                                                         <popUpMenus>
                                                                             <menu id="7103">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Type" state="on" id="7104">
+                                                                                    <menuItem title="交易类型" state="on" id="7104">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">type</string>
                                                                                         </expression>
@@ -1591,17 +1591,17 @@
                                                                             </menu>
                                                                             <menu id="7102">
                                                                                 <items>
-                                                                                    <menuItem title="is" state="on" id="7106">
+                                                                                    <menuItem title="是" state="on" id="7106">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7105">
+                                                                                    <menuItem title="不是" id="7105">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
                                                                                 </items>
                                                                             </menu>
                                                                             <menu id="7101">
                                                                                 <items>
-                                                                                    <menuItem title="closed" state="on" id="7107">
+                                                                                    <menuItem title="已关闭" state="on" id="7107">
                                                                                         <expression key="representedObject" type="constant">
                                                                                             <string key="constantValue">0</string>
                                                                                         </expression>
@@ -1646,7 +1646,7 @@
                                                                         <popUpMenus>
                                                                             <menu id="7113">
                                                                                 <items>
-                                                                                    <menuItem title="Transaction Total Amount" state="on" id="7121">
+                                                                                    <menuItem title="交易总金额" state="on" id="7121">
                                                                                         <expression key="representedObject" type="keyPath">
                                                                                             <string key="keyPath">totalamount</string>
                                                                                         </expression>
@@ -1655,22 +1655,22 @@
                                                                             </menu>
                                                                             <menu id="7114">
                                                                                 <items>
-                                                                                    <menuItem title="is" state="on" id="7115">
+                                                                                    <menuItem title="是" state="on" id="7115">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7116">
+                                                                                    <menuItem title="不是" id="7116">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is less than" id="7117">
+                                                                                    <menuItem title="小于" id="7117">
                                                                                         <integer key="representedObject" value="0"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is greater than" id="7118">
+                                                                                    <menuItem title="大于" id="7118">
                                                                                         <integer key="representedObject" value="2"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is greater than or equal to" id="7119">
+                                                                                    <menuItem title="大于或等于" id="7119">
                                                                                         <integer key="representedObject" value="3"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is less than or equal to" id="7120">
+                                                                                    <menuItem title="小于或等于" id="7120">
                                                                                         <integer key="representedObject" value="1"/>
                                                                                     </menuItem>
                                                                                 </items>
@@ -1701,10 +1701,10 @@
                                                                             </menu>
                                                                             <menu id="7039">
                                                                                 <items>
-                                                                                    <menuItem title="is transferred to" state="on" id="7042">
+                                                                                    <menuItem title="转账到" state="on" id="7042">
                                                                                         <integer key="representedObject" value="4"/>
                                                                                     </menuItem>
-                                                                                    <menuItem title="is not" id="7043">
+                                                                                    <menuItem title="不是" id="7043">
                                                                                         <integer key="representedObject" value="5"/>
                                                                                     </menuItem>
                                                                                 </items>
