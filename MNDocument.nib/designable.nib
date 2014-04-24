@@ -297,7 +297,7 @@
                                                                                                             <button id="1282" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="0.0" y="17" width="58" height="16"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="All" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" state="on" imageScaling="axesIndependently" inset="2" id="1283">
+                                                                                                                <buttonCell key="cell" type="square" title="全部" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" state="on" imageScaling="axesIndependently" inset="2" id="1283">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="smallSystemBold"/>
                                                                                                                 </buttonCell>
@@ -695,7 +695,7 @@
                                                                         <tabViewItem label="(do not localize) Empty" identifier="empty" id="464">
                                                                             <view key="view" id="465" customClass="MNBackgroundView">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="575" height="731"/>
-                                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                             </view>
                                                                         </tabViewItem>
                                                                         <tabViewItem label="Bills" identifier="bills" id="487">
@@ -707,7 +707,7 @@
                                                                                         <rect key="frame" x="0.0" y="0.0" width="575" height="731"/>
                                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                         <subviews>
-                                                                                            <tabView autoresizesSubviews="NO" type="noTabsNoBorder" initialItem="2720" id="2719">
+                                                                                            <tabView type="noTabsNoBorder" initialItem="2720" id="2719">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="575" height="707"/>
                                                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                 <font key="font" metaFont="system"/>
@@ -722,7 +722,7 @@
                                                                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                     <clipView key="contentView" id="CvX-ef-pKV">
                                                                                                                         <rect key="frame" x="0.0" y="17" width="575" height="690"/>
-                                                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                         <subviews>
                                                                                                                             <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="sequential" alternatingRowBackgroundColors="YES" columnSelection="YES" autosaveName="billsTV" headerView="1139" id="1138" customClass="MNBillsTableView">
                                                                                                                                 <rect key="frame" x="0.0" y="0.0" width="575" height="690"/>
@@ -870,18 +870,18 @@
                                                                                                     </tabViewItem>
                                                                                                     <tabViewItem identifier="grid" id="2722">
                                                                                                         <view key="view" id="2723">
-                                                                                                            <rect key="frame" x="0.0" y="0.0" width="575" height="706"/>
+                                                                                                            <rect key="frame" x="0.0" y="0.0" width="575" height="707"/>
                                                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                             <subviews>
                                                                                                                 <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="2746" customClass="PRScrollView">
-                                                                                                                    <rect key="frame" x="-10" y="0.0" width="585" height="706"/>
+                                                                                                                    <rect key="frame" x="-10" y="0.0" width="585" height="707"/>
                                                                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                     <clipView key="contentView" id="pfD-Oy-vB0">
-                                                                                                                        <rect key="frame" x="0.0" y="0.0" width="585" height="706"/>
-                                                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                                                        <rect key="frame" x="0.0" y="0.0" width="585" height="707"/>
+                                                                                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                         <subviews>
                                                                                                                             <customView id="2747" customClass="MNBillsGridView">
-                                                                                                                                <rect key="frame" x="0.0" y="0.0" width="600" height="706"/>
+                                                                                                                                <rect key="frame" x="0.0" y="0.0" width="600" height="707"/>
                                                                                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                             </customView>
                                                                                                                         </subviews>
@@ -911,7 +911,7 @@
                                                                                                             <button id="2485" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="0.0" y="1" width="38" height="23"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="All" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" state="on" imageScaling="axesIndependently" inset="2" id="2490">
+                                                                                                                <buttonCell key="cell" type="square" title="全部" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" state="on" imageScaling="axesIndependently" inset="2" id="2490">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="system"/>
                                                                                                                 </buttonCell>
@@ -919,7 +919,7 @@
                                                                                                             <button tag="1" id="2484" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="46" y="1" width="74" height="23"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="Incoming" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" imageScaling="axesIndependently" inset="2" id="2491">
+                                                                                                                <buttonCell key="cell" type="square" title="收入" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" imageScaling="axesIndependently" inset="2" id="2491">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="system"/>
                                                                                                                 </buttonCell>
@@ -927,7 +927,7 @@
                                                                                                             <button tag="3" id="2847" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="210" y="1" width="65" height="23"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="Transfer" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" imageScaling="axesIndependently" inset="2" id="2848">
+                                                                                                                <buttonCell key="cell" type="square" title="转账" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" imageScaling="axesIndependently" inset="2" id="2848">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="system"/>
                                                                                                                 </buttonCell>
@@ -935,7 +935,7 @@
                                                                                                             <button tag="2" id="2483" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="128" y="1" width="74" height="23"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="Outgoing" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" imageScaling="proportionallyDown" inset="2" id="2492">
+                                                                                                                <buttonCell key="cell" type="square" title="支出" bezelStyle="shadowlessSquare" alignment="center" alternateImage="topview_normal2" imageScaling="proportionallyDown" inset="2" id="2492">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="system"/>
                                                                                                                 </buttonCell>
@@ -1371,13 +1371,13 @@
                                                                         <tabViewItem label="Payees" identifier="payees" id="501">
                                                                             <view key="view" id="502">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="575" height="731"/>
-                                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                 <subviews>
                                                                                     <customView id="4143">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="575" height="731"/>
                                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                         <subviews>
-                                                                                            <tabView autoresizesSubviews="NO" type="noTabsNoBorder" id="9083">
+                                                                                            <tabView type="noTabsNoBorder" id="9083">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="575" height="707"/>
                                                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                 <font key="font" metaFont="system"/>
@@ -1392,7 +1392,7 @@
                                                                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                     <clipView key="contentView" copiesOnScroll="NO" id="lkD-pA-qMP">
                                                                                                                         <rect key="frame" x="0.0" y="0.0" width="575" height="707"/>
-                                                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                         <subviews>
                                                                                                                             <customView id="4215" customClass="MNPayeesGridView">
                                                                                                                                 <rect key="frame" x="0.0" y="0.0" width="575" height="707"/>
@@ -1425,7 +1425,7 @@
                                                                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                     <clipView key="contentView" id="TTI-Re-CT9">
                                                                                                                         <rect key="frame" x="0.0" y="17" width="575" height="690"/>
-                                                                                                                        <autoresizingMask key="autoresizingMask"/>
+                                                                                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                                                         <subviews>
                                                                                                                             <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="sequential" alternatingRowBackgroundColors="YES" autosaveColumns="NO" headerView="9116" id="9115" customClass="MNTableView">
                                                                                                                                 <rect key="frame" x="0.0" y="0.0" width="662" height="690"/>
@@ -1458,7 +1458,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="firstname" width="150" minWidth="60" maxWidth="3.4028229999999999e+38" id="9194">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="First Name">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="名字">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1472,7 +1472,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="lastname" width="150" minWidth="60" maxWidth="3.4028229999999999e+38" id="9151">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Last Name">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="姓氏">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1486,7 +1486,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="company" width="150" minWidth="60" maxWidth="3.4028229999999999e+38" id="9153">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Company">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="公司">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1500,7 +1500,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="phone" width="150" minWidth="60" maxWidth="3.4028229999999999e+38" hidden="YES" id="9158">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Phone">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="电话">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1514,7 +1514,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="email" width="150" minWidth="60" maxWidth="3.4028229999999999e+38" id="9160">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Email">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="电子邮箱">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1528,7 +1528,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="website" width="150" minWidth="60" maxWidth="3.4028229999999999e+38" hidden="YES" id="9162">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Website">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="网站">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1542,7 +1542,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="notes" width="150" minWidth="60" maxWidth="3.4028229999999999e+38" hidden="YES" id="9122">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Comments">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="说明">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1556,7 +1556,7 @@
                                                                                                                                         <tableColumnResizingMask key="resizingMask" userResizable="YES"/>
                                                                                                                                     </tableColumn>
                                                                                                                                     <tableColumn identifier="view_category" width="75" minWidth="60" maxWidth="300" hidden="YES" id="9764">
-                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Category">
+                                                                                                                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="分类">
                                                                                                                                             <font key="font" metaFont="smallSystem"/>
                                                                                                                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                                                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1607,7 +1607,7 @@
                                                                                                             <button tag="1" id="9098" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="57" y="16" width="78" height="16"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="Companies" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="9101">
+                                                                                                                <buttonCell key="cell" type="square" title="公司" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="9101">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="smallSystemBold"/>
                                                                                                                 </buttonCell>
@@ -1615,7 +1615,7 @@
                                                                                                             <button tag="2" id="9096" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="134" y="16" width="86" height="16"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="Persons" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="9103">
+                                                                                                                <buttonCell key="cell" type="square" title="个人" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="9103">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="smallSystemBold"/>
                                                                                                                 </buttonCell>
@@ -1623,7 +1623,7 @@
                                                                                                             <button id="9099" customClass="MNRoundedTopViewButton">
                                                                                                                 <rect key="frame" x="0.0" y="16" width="58" height="16"/>
                                                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                                                                <buttonCell key="cell" type="square" title="All" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" state="on" imageScaling="axesIndependently" inset="2" id="9100">
+                                                                                                                <buttonCell key="cell" type="square" title="全部" bezelStyle="shadowlessSquare" image="topview_normal2" imagePosition="overlaps" alignment="center" state="on" imageScaling="axesIndependently" inset="2" id="9100">
                                                                                                                     <behavior key="behavior" lightByContents="YES"/>
                                                                                                                     <font key="font" metaFont="smallSystemBold"/>
                                                                                                                 </buttonCell>
