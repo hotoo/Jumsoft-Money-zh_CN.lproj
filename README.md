@@ -13,7 +13,7 @@
 
   ```
   $ cd /Applications/Money.app/Contents/Resources
-  $ git clone git@github.com:hotoo/Jumsoft-Money-zh_CN.lproj.git zh_CN.lproj
+  $ sudo git clone https://github.com/hotoo/Jumsoft-Money-zh_CN.lproj.git zh_CN.lproj
   ```
 
 1. 手动安装方式：
@@ -29,4 +29,4 @@
 
 ## 使用(Usage)
 
-重新启动 Money.app 即可。
+安装后，重新启动 Money.app 即可生效。
